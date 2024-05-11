@@ -1,0 +1,273 @@
+body {
+    margin: 0 15%;
+    background: rgb(65, 64, 64);
+    font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.mainContainer {
+    display: grid;
+    overflow: auto;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+    
+}
+/*======================sidebar============================ */
+.sidebar {
+    background-color: rgb(47, 149, 197);
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.sideFlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+.sideFlexRow {
+    display: flex; 
+    flex-direction: row;
+    margin: 0 0 20px 20px;
+}
+/* ==================icons == */
+.companyLogo {
+    width: 50px;
+    height: 50px;
+    padding: 8px 5px 0 20px;
+    
+    
+}
+
+/* ==================icons == */
+.dashboard {
+    color: white;
+    padding: 10px 0 0 5px;
+    margin: 10px 0 40px 0;
+}
+.mainLinks {
+    color: white;
+    margin: 0 0 0 10px;
+    
+}
+.linkIcons {
+    width: 20px;
+    height: 20px;
+    padding: 0 5px 0 25px;
+    
+}
+.supportLinks {
+    margin-top: 40px;
+}
+
+
+/*======================sidebar============================ */
+.main {
+    background-color: rgb(230, 230, 235);
+    grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: -1;
+}
+
+/*======================header============================ */
+
+.header {
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0px 5px 3px -1px rgba(155, 155, 155, 0.226);
+    z-index: 1;
+    display: grid;
+    
+}
+/*======================.hcontainer 1===== */
+.hcontainer1 {
+    display: grid;
+    grid-template-columns: .5fr 3fr 50px 50px 1fr;
+    
+}
+#searchIcon {
+   align-self: center;
+   justify-self: end;
+}
+#searchBar {
+    width: 500px;
+    height: 1.875rem;
+    border-radius: 20px;
+    align-self: center;
+   justify-self: start;
+   border: none;
+   background-color: rgb(183, 215, 224);
+}
+#bellIcon {
+    align-self: center;
+   justify-self: center;
+}
+#smallPro {
+    align-self: center;
+    justify-self: center;
+}
+#profileName1 {
+    align-self: center;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+.profileIcon1 {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+   justify-self: end;
+}
+
+/*======================.hcontainer 2===== */
+.hcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr .8fr .8fr .8fr;
+}
+button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: rgb(25, 146, 194);
+    border: none;
+    color: white;
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+    
+}
+.profileIcon2 {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+   justify-self: end;
+   margin-right: 20px;
+}
+#profileName2 {
+    margin: 0;
+    font-size: 20px;
+}
+#hiProName {
+    width: 300px;
+    align-self: center;
+   
+   
+}
+#hiThere {
+    margin: 20px 0 0 0;
+
+    
+
+}
+/*======================header============================ */
+
+/*======================Main============================ */
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+/*======================MainTopRow== */
+.mainTopRow {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: end;
+}
+.yourProjects {
+    padding-left: 20px;
+}
+
+
+/*======================MainTopRow== */
+
+/*======================MainBotRow== */
+.mainBotRow {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.mainCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.mainCards {
+    width: 20rem;
+    height: 12rem;
+    background-color: rgb(245, 245, 248);
+    box-shadow:  5px 5px 3px -1px rgba(155, 155, 155, 0.226);
+    border-radius: 10px;
+    margin-left: 15px;
+    border-left: 5px solid rgb(238, 183, 80);
+    padding-left: 10px;
+    
+}
+
+
+.sideCards {
+    height: 17rem;
+    width: 14rem;
+    background-color: rgb(245, 245, 248);
+    box-shadow:  5px 5px 3px -1px rgba(155, 155, 155, 0.226);
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 10px 20px 5px 30px;
+
+    
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#trending {
+    padding-left: 40px;
+    margin-top: 2.3rem;
+}
+.announcements {
+    padding-left: 40px;
+    margin-top: -27px;
+}
+
+
+
+
+/*======================MainBotRow== */
+
+/*======================Cards== */
+.cardInfo{
+    margin: 0 10px;
+}
+.cardName {
+    margin-bottom: 0;
+}
+.cardSummary {
+    margin-top: 0;
+}
+.iconDiv {
+    display: flex;
+    justify-content: end;
+    margin: 40px 5px 0 0;
+    
+}
+/*======================Cards== */
+/*======================Main============================ */
+
+.trendingRows {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 25px 5px 0 5px;
+    
+}
+.profileIcon3 {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    padding-right: 20px;
+}
+.noMargin {
+    margin: 0;
+}
+.atName {
+    font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

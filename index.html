@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <section class="mainContainer">
+        <sidebar class="sidebar sideFlex">
+            <div class="logoTitle sideFlexRow">
+                <img class="companyLogo" src="/icons/xcircle.svg" alt="company-logo">
+                <h1 class="dashboard">Dashboard</h1>
+            </div>
+            <div class="mainLinkContainer sideFlexColumn">
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/home.svg" alt="Home icon">
+                    <h3 class="mainLinks">Home</h3>
+                </div>
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/profileLinkImage.svg" alt="Profile icon">
+                    <h3 class="mainLinks">Profile</h3>
+                </div>
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/message.svg" alt="Messages icon">
+                    <h3 class="mainLinks">Messages</h3>
+                </div>
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/history.svg" alt="history icon">
+                    <h3 class="mainLinks">History</h3>
+                </div>
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/file-document-multiple.svg" alt="tasks icon">
+                    <h3 class="mainLinks">Tasks</h3>
+                </div>
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/account-group.svg" alt="community icon">
+                    <h3 class="mainLinks">Communities</h3>
+                </div>
+            </div>
+            <div class="supportLinks sideFlex">
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/cog.svg" alt="Settings icon">
+                    <h3 class="mainLinks">Settings</h3>
+                </div>
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/help-rhombus.svg" alt="Support icon">
+                    <h3 class="mainLinks">Support</h3>
+                </div>
+                <div class="sideFlexRow">
+                    <img class="linkIcons" src="/icons/shield-check.svg" alt="Privacy icon">
+                    <h3 class="mainLinks">Privacy</h3>
+                </div>
+            </div>
+        </sidebar>
+        <header class="header">
+            <div class="hcontainer1">
+                <img class="linkIcons" id="searchIcon" src="/icons/magnify.svg" alt="search icon">
+                <input type="text" name="search_bar" id="searchBar">
+                <img class="linkIcons" src="/icons/bell-ring-outline.svg" alt="bell icon" id="bellIcon">
+                <img class="profileIcon1" src="/images/profilePic.png" alt="profile icon" id="smallPro">
+                <h3 id="profileName1">Morgan Oakley</h3>
+            </div>
+            <div class="hcontainer2">
+                <img class="profileIcon2" src="/images/profilePic.png" alt="profile icon">
+                <div id="hiProName">
+                    <p id="hiThere">Hi there,</p>
+                    <h2 id="profileName2">Morgan Oakley (@morgan)</h2>
+                    
+                </div>
+                
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+                
+            </div>
+        </header>
+        <main class="main">
+            <div class="mainTopRow">
+                <h3 class="yourProjects">Your Projects</h3>
+                
+            </div>
+            <div class="mainBotRow">
+                <div class="mainCardContainer">
+                    <div class="mainCards">
+                        <div class="cardInfo">
+                            <h5 class="cardName">The Trek Project</h5>
+                            <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="iconDiv">
+                            <a  href="#"><img class="linkIcons" src="/icons/star-plus-outline.svg" alt="favorite-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/eye-plus-outline.svg" alt="watch-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/share-variant-outline.svg" alt="share-project"></a>
+                        </div>
+                    </div>
+                    <div class="mainCards">
+                        <div class="cardInfo">
+                            <h5 class="cardName">Super Cool Project</h5>
+                            <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="iconDiv">
+                            <a  href="#"><img class="linkIcons" src="/icons/star-plus-outline.svg" alt="favorite-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/eye-plus-outline.svg" alt="watch-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/share-variant-outline.svg" alt="share-project"></a>
+                        </div>
+                    </div>
+                    <div class="mainCards">
+                        <div class="cardInfo">
+                            <h5 class="cardName">The Dope Track</h5>
+                            <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="iconDiv">
+                            <a  href="#"><img class="linkIcons" src="/icons/star-plus-outline.svg" alt="favorite-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/eye-plus-outline.svg" alt="watch-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/share-variant-outline.svg" alt="share-project"></a>
+                        </div>
+                    </div>
+                    <div class="mainCards">
+                        <div class="cardInfo">
+                            <h5 class="cardName">Horizon App</h5>
+                            <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="iconDiv">
+                            <a  href="#"><img class="linkIcons" src="/icons/star-plus-outline.svg" alt="favorite-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/eye-plus-outline.svg" alt="watch-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/share-variant-outline.svg" alt="share-project"></a>
+                        </div>
+                    </div>
+                    <div class="mainCards">
+                        <div class="cardInfo">
+                            <h5 class="cardName">Ring App Project</h5>
+                            <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="iconDiv">
+                            <a  href="#"><img class="linkIcons" src="/icons/star-plus-outline.svg" alt="favorite-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/eye-plus-outline.svg" alt="watch-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/share-variant-outline.svg" alt="share-project"></a>
+                        </div>
+                    </div>
+                    <div class="mainCards">
+                        <div class="cardInfo">
+                            <h5 class="cardName">Doom Fist Project</h5>
+                            <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="iconDiv">
+                            <a  href="#"><img class="linkIcons" src="/icons/star-plus-outline.svg" alt="favorite-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/eye-plus-outline.svg" alt="watch-project"></a>
+                            <a  href="#"><img class="linkIcons" src="/icons/share-variant-outline.svg" alt="share-project"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sideCardContainer">
+                    <h3 class="announcements">Announcements</h3>
+                    <div class="sideCards">
+                        <h5 class="cardName">Site Maintenance</h5>
+                        <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                        <h5 class="cardName">Community Share Day</h5>
+                        <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                        <h5 class="cardName">Updated Privacy Policy</h5>
+                        <p class="cardSummary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.. </p>
+                    </div>
+                    <div class="trendingHeader"><h3 id="trending">Trending</h3></div>
+                    <div class="sideCards">
+                        <div class="trendingRows">
+                            <img class="profileIcon3" src="/images/greenGuyPic.png" alt="trending-user-profile">
+                            <div class="trendingNameSloganContainer">
+                                <p class="noMargin atName">@legan</p>
+                                <p class="noMargin">The Dope Track</p>
+                            </div>
+                        </div>
+                        <div class="trendingRows">
+                            <img class="profileIcon3" src="/images/profilePic.png" alt="trending-user-profile">
+                            <div class="trendingNameSloganContainer">
+                                <p class="noMargin atName">@Morgan</p>
+                                <p class="noMargin">Doom Fist Project</p>
+                            </div>
+                        </div>
+                        <div class="trendingRows">
+                            <img class="profileIcon3" src="/images/girlRedPic.png" alt="trending-user-profile">
+                            <div class="trendingNameSloganContainer">
+                                <p class="noMargin atName">@kendall</p>
+                                <p class="noMargin">Horizon App</p>
+                            </div>
+                        </div>
+                        <div class="trendingRows">
+                            <img class="profileIcon3" src="/images/girlBlueDress.png" alt="trending-user-profile">
+                            <div class="trendingNameSloganContainer">
+                                <p class="noMargin atName">@alex</p>
+                                <p class="noMargin">Ring App Project</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    
+</body>
+</html>
